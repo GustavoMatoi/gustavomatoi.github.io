@@ -4,11 +4,10 @@ import Footer from './Footer';
 import '../../index.css';
 
 const Navbar = () => {
-  console.log(window.innerHeight)
   return (
-    <div className='flex fixed flex-col h-full justify-center items-center'>
+    <div className=' lg:fixed flex-col justify-center items-center'>
       <Header />
-      <ul className='text-cyan-50 w-5/6  p-10 '>
+      <ul className='text-cyan-50 w-11/12  p-10'>
         <li className='cursor-pointer list-item blue-transition' onClick={() => window.scrollTo(0,0)}>- Sobre</li>
         <li className='cursor-pointer list-item' onClick={() => window.scrollTo(0,730)}>- Projetos</li>
         <li className='cursor-pointer list-item' onClick={() => window.scrollTo(0,1900)}>- Experiência</li>

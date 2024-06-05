@@ -8,11 +8,11 @@ import ProfissionalExperience from './components/ProfissionalExperience'
 function App() {
 
   return (
-    <div className='bg-cyan-950 w-screen  flex overflow-hidden'>
-      <div className=' flex w-1/2'>
+    <div className='bg-cyan-950 w-screen  lg:flex overflow-hidden'>
+      <div className='sm:h-screen sm:w-full lg:w-1/2'>
         <Navbar></Navbar>
       </div>
-      <div className='w-1/2'>
+      <div className='lg:w-1/2'>
         <About />
         <Projects />
         <ProfissionalExperience/>
